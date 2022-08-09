@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+	
+	<hibernate-mapping>
+	<class name="com.Addproduct.demo.AddProduct" table="Product">
+	<id name="ProductId" column="ProductId">
+	<generator class="increment"></generator>
+	
+	</id>
+	<property name="PName" type="string" ></property>
+		<property name="Category" type="string"></property>
+			<property name="Price" type="string"></property>
+			   <property name="Quantity" type="string"></property>
+	
+	
+	</class>
+	
+	</hibernate-mapping>
